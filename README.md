@@ -25,7 +25,8 @@
 
 ***
 
-- **<font face="Times New Roman">[ Oct  4, 2024 ]</font>**, *<font face="Times New Roman">one</font>* <font face="Times New Roman">paper is accepted by IEEE Transactions on Multimedia (TMM).</font>
+- **<font face="Times New Roman">[ Dec  10, 2024 ]</font>**, *<font face="Times New Roman">one</font>* <font face="Times New Roman">paper is accepted by AAAI Conference on Artificial Intelligence (AAAI 2025).</font>
+- **<font face="Times New Roman">[ Oct  4, 2024 ]</font>**, *<font face="Times New Roman">one</font>* <font face="Times New Roman">paper is accepted by IEEE Transactions on Multimedia (TMM).</font>
 - **<font face="Times New Roman">[ Sep  4, 2024 ]</font>**, *<font face="Times New Roman">one</font>* <font face="Times New Roman">co-paper is accepted by Big Data Mining and Analytics (BDMA). Congrats to Qianxi.</font>
 - **<font face="Times New Roman">[ Jul 21, 2024 ]</font>**, *<font face="Times New Roman">one</font>* <font face="Times New Roman">paper is accepted by ACM International Conference on Multimedia (ACM MM 2024 Oral).</font>
 - **<font face="Times New Roman">[ Jul 13, 2024 ]</font>**, *<font face="Times New Roman">one</font>* <font face="Times New Roman">paper is accepted by Information Sciences (INS).</font>
