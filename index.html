@@ -3,24 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Academic homepage of Yuanbo Wen, Associate Professor at Chang'an University.">
-  <link rel="stylesheet" href="jemdoc.css?v=20260707-2" type="text/css">
-  <title>Yuanbo Wen</title>
-  <script>
-    if ("scrollRestoration" in history) {
-      history.scrollRestoration = "manual";
-    }
-  </script>
+  <meta name="description" content="Yuanbo Wen, Associate Professor at Chang'an University. Research in computer vision, image restoration, and remote sensing.">
+  <meta name="theme-color" content="#f7f8f6">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yuanbo Wen | Computer vision &amp; image restoration">
+  <meta property="og:description" content="Associate Professor at Chang'an University. Explore research, selected publications, and academic service.">
+  <meta property="og:url" content="https://chdwyb.github.io/">
+  <meta property="og:image" content="https://chdwyb.github.io/Figures/Yuanbo%20Wen.jpg">
+  <meta property="og:image:alt" content="Yuanbo Wen">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://chdwyb.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="jemdoc.css?v=20261027-1" type="text/css">
+  <script src="script.js?v=20261027-1" defer></script>
+  <title>Yuanbo Wen | Computer vision &amp; image restoration</title>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="site-brand" href="#biography" aria-label="Yuanbo Wen, back to introduction">
+      <span class="brand-mark" aria-hidden="true">YW</span>
+      <span class="brand-name">Yuanbo Wen</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#biography">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#services">Service</a>
+    </nav>
+  </header>
   <div class="page-shell">
     <aside class="profile-panel" aria-label="Profile">
       <a class="portrait-link" href="./" aria-label="Yuanbo Wen homepage">
-        <img class="portrait" src="./Figures/Yuanbo Wen.jpg" alt="Yuanbo Wen">
+        <img class="portrait" src="./Figures/Yuanbo Wen.jpg" alt="Yuanbo Wen" width="722" height="940" decoding="async">
       </a>
 
       <div class="profile-heading">
-        <h2>Yuanbo Wen (文渊博)</h2>
+        <h1>Yuanbo Wen</h1>
+        <p class="chinese-name" lang="zh-CN">文渊博</p>
         <p class="role">Associate Professor</p>
       </div>
 
@@ -30,23 +51,27 @@
       </div>
 
       <div class="contact-block" id="contact">
-        <a class="contact-link" href="mailto:wyb@chd.edu.cn">E-mail</a>
-        <a class="contact-link" href="https://scholar.google.com/citations?user=8PK8tSEAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <a class="contact-link primary" href="mailto:wyb@chd.edu.cn">Get in touch <span aria-hidden="true">↗</span></a>
+        <a class="contact-link" href="https://scholar.google.com/citations?user=8PK8tSEAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
-
+      <div class="profile-topics">
+        <p class="eyebrow">Research areas</p>
+        <ul>
+          <li>Computer vision</li>
+          <li>Image restoration</li>
+          <li>Remote sensing</li>
+        </ul>
+      </div>
     </aside>
 
-    <main class="content-panel">
+    <main class="content-panel" id="main-content" tabindex="-1">
       <section class="intro-section section" id="biography">
-        <h2>
-          <span class="section-title">
-            <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M20 21a8 8 0 0 0-16 0"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-            <span>Biography</span>
-          </span>
-        </h2>
+        <p class="eyebrow">Research &amp; biography</p>
+        <h2 class="intro-title">Computer vision &amp;<br>image restoration.</h2>
+        <p class="intro-lead">
+          My research interests include computer vision, general image restoration, remote sensing image processing,
+          unpaired learning, and multi-modal learning.
+        </p>
         <p>
           I am currently an Associate Professor in the School of Information Engineering, Chang'an University, where I conducted my postdoctoral research supervised by Prof.
           <a href="https://scholar.google.com/citations?user=PlBq8n8AAAAJ" target="_blank" rel="noopener noreferrer">Shutao Li (李树涛)</a>, and received my Ph.D. degree supervised by Prof.
@@ -54,71 +79,55 @@
           Before that, I worked as a visiting scholar at the School of Computing, Australian National University, where I conducted research with Senior Lecturer
           <a href="https://comp.anu.edu.au/people/jing-zhang/" target="_blank" rel="noopener noreferrer">Jing Zhang (张静)</a>.
         </p>
-        <p>
-          My research interests include computer vision, general image restoration, remote sensing image processing,
-          unpaired learning, and multi-modal learning.
-        </p>
-
+        <a class="text-link" href="#publications">Explore selected work <span aria-hidden="true">↘</span></a>
       </section>
-
-      <nav class="section-jump" aria-label="Page sections">
-        <a href="#news">Some News</a>
-        <a href="#publications">Selected Publications</a>
-        <a href="#services">Scholar Services</a>
-      </nav>
 
       <section class="section" id="news">
         <div class="section-heading">
           <h2>
-            <span class="section-title">
-              <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M10.3 21a2 2 0 0 0 3.4 0"></path>
-                <path d="M18 8a6 6 0 0 0-12 0c0 7-3 8-3 8h18s-3-1-3-8"></path>
-              </svg>
-              <span>Some News</span>
-            </span>
+            <span class="section-index" aria-hidden="true">01</span>
+            <span class="section-title">Recent news</span>
           </h2>
-          <span class="section-note">Recent updates</span>
+          <span class="section-note">Research milestones</span>
         </div>
         <ul class="news-list">
           <li><time datetime="2026-09">09/2026</time><span>One co-authored paper is accepted by NeurIPS 2026.</span></li>
           <li><time datetime="2026-05">05/2026</time><span>One co-authored paper is accepted by Nat Commun.</span></li>
           <li><time datetime="2026-03">03/2026</time><span>One first-authored paper is accepted by IEEE TNNLS.<strong class="highlight">ESI Highly Cited</strong></span></li>
           <li><time datetime="2025-12">12/2025</time><span>One co-authored paper is accepted by IEEE TGRS.<strong class="highlight">ESI Highly Cited</strong></span></li>
-          <li><time datetime="2025-07">07/2025</time><span>One first-authored paper is accepted by IEEE TMM.<strong class="highlight">ESI Hot, ESI Highly Cited</strong></span></li>
-          <li><time datetime="2025-06">06/2025</time><span>One first-authored paper is accepted by IEEE TGRS. <strong class="highlight">ESI Hot, ESI Highly Cited</strong></span></li>
-          <li><time datetime="2025-02">02/2025</time><span>One co-authored paper is accepted by CVPR 2025.</span></li>
-          <li><time datetime="2024-12">12/2024</time><span>One first-authored paper is accepted by AAAI 2025.</span></li>
-          <li><time datetime="2024-10">10/2024</time><span>One first-authored paper is accepted by IEEE TMM. <strong class="highlight">ESI Hot, ESI Highly Cited</strong></span></li>
-          <li><time datetime="2024-07">07/2024</time><span>One first-authored paper is accepted by ACM MM 2024. <strong class="highlight">Oral Presentation</strong></span></li>
-          <li><time datetime="2023-02">02/2023</time><span>One co-authored paper is accepted by IEEE TGRS. <strong class="highlight">ESI Highly Cited</strong></span></li>
-          <li><time datetime="2023-10">10/2023</time><span>One first-authored paper is accepted by IEEE TGRS. <strong class="highlight">ESI Highly Cited</strong></span></li>
-          <li><time datetime="2023-07">07/2023</time><span>One first-authored paper is accepted by IEEE TCSVT. <strong class="highlight">ESI Highly Cited</strong></span></li>
         </ul>
+        <details class="news-archive">
+          <summary>Earlier updates <span aria-hidden="true">+</span></summary>
+          <ul class="news-list">
+            <li><time datetime="2025-07">07/2025</time><span>One first-authored paper is accepted by IEEE TMM.<strong class="highlight">ESI Hot, ESI Highly Cited</strong></span></li>
+            <li><time datetime="2025-06">06/2025</time><span>One first-authored paper is accepted by IEEE TGRS. <strong class="highlight">ESI Hot, ESI Highly Cited</strong></span></li>
+            <li><time datetime="2025-02">02/2025</time><span>One co-authored paper is accepted by CVPR 2025.</span></li>
+            <li><time datetime="2024-12">12/2024</time><span>One first-authored paper is accepted by AAAI 2025.</span></li>
+            <li><time datetime="2024-10">10/2024</time><span>One first-authored paper is accepted by IEEE TMM. <strong class="highlight">ESI Hot, ESI Highly Cited</strong></span></li>
+            <li><time datetime="2024-07">07/2024</time><span>One first-authored paper is accepted by ACM MM 2024. <strong class="highlight">Oral Presentation</strong></span></li>
+            <li><time datetime="2023-10">10/2023</time><span>One first-authored paper is accepted by IEEE TGRS. <strong class="highlight">ESI Highly Cited</strong></span></li>
+            <li><time datetime="2023-07">07/2023</time><span>One first-authored paper is accepted by IEEE TCSVT. <strong class="highlight">ESI Highly Cited</strong></span></li>
+            <li><time datetime="2023-02">02/2023</time><span>One co-authored paper is accepted by IEEE TGRS. <strong class="highlight">ESI Highly Cited</strong></span></li>
+          </ul>
+        </details>
       </section>
 
       <section class="section" id="publications">
         <div class="section-heading">
           <h2>
-            <span class="section-title">
-              <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"></path>
-                <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
-                <path d="M8 13h8"></path>
-                <path d="M8 17h5"></path>
-              </svg>
-              <span>Selected Publications</span>
-            </span>
+            <span class="section-index" aria-hidden="true">02</span>
+            <span class="section-title">Selected publications</span>
           </h2>
-          <span class="section-note">Representative work</span>
+          <a class="section-note text-link" href="https://scholar.google.com/citations?user=8PK8tSEAAAAJ" target="_blank" rel="noopener noreferrer">All publications <span aria-hidden="true">↗</span></a>
         </div>
 
         <div class="publication-list">
           <article class="publication">
             <a class="publication-art" href="https://ieeexplore.ieee.org/abstract/document/11478384" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/OBCOT.png" alt="OBCOT paper teaser">
+              <img src="./Figures/OBCOT.png" alt="OBCOT paper teaser" width="3100" height="1453" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-tag">TNNLS</span></div>
               <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/11478384" target="_blank" rel="noopener noreferrer">When Optimal Transport Meets Photo-realistic Image Dehazing with Unpaired Training</a></p>
               <p class="pub-authors"><strong>Yuanbo Wen</strong>, Tao Gao*, Shan Liang, Dena Zhang, Ziqi Li, Jing Qin, Ting Chen</p>
               <p class="pub-venue">IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, 2026.</p>
@@ -127,9 +136,10 @@
 
           <article class="publication">
             <a class="publication-art" href="https://ieeexplore.ieee.org/document/11340759" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/SFTOT.png" alt="SFTOT paper teaser">
+              <img src="./Figures/SFTOT.png" alt="SFTOT paper teaser" width="3019" height="1047" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2026</span><span class="pub-tag">TMM</span></div>
               <p class="pub-title"><a href="https://ieeexplore.ieee.org/document/11340759" target="_blank" rel="noopener noreferrer">Structure-preserving Frequency-regularized Text-guided Optimal Transport for Unpaired Rain Streaks and Raindrops Removal</a></p>
               <p class="pub-authors"><strong>Yuanbo Wen</strong>, Tao Gao*, Ziqi Li, Qianxi Zhang, Jing Zhang, Ting Chen, Lidong Liu</p>
               <p class="pub-venue">IEEE Transactions on Multimedia <strong>(TMM)</strong>, 2026.</p>
@@ -138,9 +148,10 @@
 
           <article class="publication">
             <a class="publication-art" href="https://ojs.aaai.org/index.php/AAAI/article/view/32898" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/MPMF-Net.png" alt="MPMF-Net paper teaser">
+              <img src="./Figures/MPMF-Net.png" alt="MPMF-Net paper teaser" width="6151" height="2896" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-tag">AAAI</span></div>
               <p class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32898" target="_blank" rel="noopener noreferrer">Multi-axis Prompt and Multi-dimension Fusion Network for All-in-one Weather-degraded Image Restoration</a></p>
               <p class="pub-authors"><strong>Yuanbo Wen</strong>, Tao Gao*, Jing Zhang, Ziqi Li, Ting Chen</p>
               <p class="pub-venue">AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2025.</p>
@@ -149,9 +160,10 @@
 
           <article class="publication">
             <a class="publication-art" href="https://ieeexplore.ieee.org/abstract/document/11026022" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/CINet.png" alt="CINet paper teaser">
+              <img src="./Figures/CINet.png" alt="CINet paper teaser" width="5300" height="2159" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-tag">TGRS</span></div>
               <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/11026022" target="_blank" rel="noopener noreferrer">Cross-Level Interaction and Intralevel Fusion Network for Remote Sensing Image Dehazing</a></p>
               <p class="pub-authors"><strong>Yuanbo Wen</strong>, Tao Gao*, Ting Chen, Ziqi Li, Mengkun Liu, Lidong Liu</p>
               <p class="pub-venue">IEEE Transactions on Geoscience and Remote Sensing <strong>(TGRS)</strong>, 2025.</p>
@@ -160,9 +172,10 @@
 
           <article class="publication">
             <a class="publication-art" href="https://ieeexplore.ieee.org/abstract/document/10855564" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/ADSM.png" alt="ADSM paper teaser">
+              <img src="./Figures/ADSM.png" alt="ADSM paper teaser" width="4072" height="1556" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2025</span><span class="pub-tag">TMM</span></div>
               <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10855564" target="_blank" rel="noopener noreferrer">All-in-one Weather-degraded Image Restoration via Adaptive Degradation-aware Self-prompting Model</a></p>
               <p class="pub-authors"><strong>Yuanbo Wen</strong>, Tao Gao*, Ziqi Li, Jing Zhang, Kaihao Zhang, Ting Chen</p>
               <p class="pub-venue">IEEE Transactions on Multimedia <strong>(TMM)</strong>, 2025.</p>
@@ -171,9 +184,10 @@
 
           <article class="publication">
             <a class="publication-art" href="https://dl.acm.org/doi/abs/10.1145/3664647.3680560" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/UPID-EDM.png" alt="UPID-EDM paper teaser">
+              <img src="./Figures/UPID-EDM.png" alt="UPID-EDM paper teaser" width="4349" height="2289" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2024</span><span class="pub-tag">ACM MM Oral</span></div>
               <p class="pub-title"><a href="https://dl.acm.org/doi/abs/10.1145/3664647.3680560" target="_blank" rel="noopener noreferrer">Unpaired Photo-realistic Image Deraining with Energy-informed Diffusion Model</a></p>
               <p class="pub-authors"><strong>Yuanbo Wen</strong>, Tao Gao*, Ting Chen</p>
               <p class="pub-venue">ACM International Conference on Multimedia <strong>(ACM MM Oral)</strong>, 2024.</p>
@@ -182,9 +196,10 @@
 
           <article class="publication">
             <a class="publication-art" href="https://ieeexplore.ieee.org/abstract/document/10287960" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/EMPF-Net.png" alt="EMPF-Net paper teaser">
+              <img src="./Figures/EMPF-Net.png" alt="EMPF-Net paper teaser" width="3544" height="1341" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2023</span><span class="pub-tag">TGRS</span></div>
               <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10287960" target="_blank" rel="noopener noreferrer">Encoder-free Multiaxis Physics-aware Fusion Network for Remote Sensing Image Dehazing</a></p>
               <p class="pub-authors"><strong>Yuanbo Wen</strong>, Tao Gao*, Jing Zhang, Ziqi Li, Ting Chen</p>
               <p class="pub-venue">IEEE Transactions on Geoscience and Remote Sensing <strong>(TGRS)</strong>, 2023.</p>
@@ -193,9 +208,10 @@
 
           <article class="publication">
             <a class="publication-art" href="https://ieeexplore.ieee.org/abstract/document/10196308" target="_blank" rel="noopener noreferrer">
-              <img src="./Figures/AIRFormer.png" alt="AIRFormer paper teaser">
+              <img src="./Figures/AIRFormer.png" alt="AIRFormer paper teaser" width="5553" height="2066" decoding="async" loading="lazy">
             </a>
             <div class="publication-body">
+              <div class="pub-meta"><span class="pub-year">2023</span><span class="pub-tag">TCSVT</span></div>
               <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10196308" target="_blank" rel="noopener noreferrer">Frequency-oriented Efficient Transformer for All-in-one Weather-degraded Image Restoration</a></p>
               <p class="pub-authors">Tao Gao, <strong>Yuanbo Wen</strong>*, Kaihao Zhang, Jing Zhang, Ting Chen, Lidong Liu, Wenhan Luo</p>
               <p class="pub-venue">IEEE Transactions on Circuits and Systems for Video Technology <strong>(TCSVT)</strong>, 2023.</p>
@@ -207,31 +223,25 @@
       <section class="section" id="services">
         <div class="section-heading">
           <h2>
-            <span class="section-title">
-              <svg class="section-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <circle cx="12" cy="8" r="6"></circle>
-                <path d="M15.5 13.2 17 22l-5-3-5 3 1.5-8.8"></path>
-                <path d="m9.5 8 1.8 1.8L15 6.2"></path>
-              </svg>
-              <span>Scholar Services</span>
-            </span>
+            <span class="section-index" aria-hidden="true">03</span>
+            <span class="section-title">Academic service</span>
           </h2>
           <span class="section-note">Editorial and reviewer roles</span>
         </div>
 
         <div class="service-grid">
-          <div class="service-column">
-            <section class="service-block" aria-labelledby="editorial-roles">
-              <h3 id="editorial-roles">Editorial Role</h3>
-              <ul>
-                <li>Associate Editor, Pattern Recognition</li>
-                <li>Associate Editor, Journal of King Saud University - Computer and Information Sciences</li>
-                <li>Guest Editor, Journal of Imaging</li>
+            <section class="service-block editorial-block" aria-labelledby="editorial-roles">
+              <h3 id="editorial-roles">Editorial roles</h3>
+              <ul class="editorial-list">
+                <li><span class="editorial-title">Pattern Recognition</span><span class="editorial-position">Associate Editor</span></li>
+                <li><span class="editorial-title">Scientific Reports</span><span class="editorial-position">Associate Editor</span></li>
+                <li><span class="editorial-title">Journal of King Saud University - Computer and Information Sciences</span><span class="editorial-position">Associate Editor</span></li>
+                <li><span class="editorial-title">Journal of Imaging</span><span class="editorial-position">Guest Editor</span></li>
               </ul>
             </section>
 
             <section class="service-block" aria-labelledby="conference-reviewer">
-              <h3 id="conference-reviewer">Conference Reviewer</h3>
+              <h3 id="conference-reviewer">Conference reviewer</h3>
               <ul>
                 <li>IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2024, 2025, 2026)</li>
                 <li>IEEE International Conference on Computer Vision (ICCV 2025)</li>
@@ -247,10 +257,8 @@
                 <li>IEEE International Conference on Image Processing (ICIP 2024, 2025, 2026)</li>
               </ul>
             </section>
-          </div>
-
           <section class="service-block" aria-labelledby="journal-reviewer">
-            <h3 id="journal-reviewer">Journal Reviewer</h3>
+            <h3 id="journal-reviewer">Journal reviewer</h3>
             <ul>
               <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
               <li>IEEE Transactions on Image Processing (TIP)</li>
@@ -279,19 +287,11 @@
           </section>
         </div>
       </section>
+      <footer class="site-footer">
+        <p>Yuanbo Wen <span aria-hidden="true">·</span> Chang'an University</p>
+        <a href="#biography">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
     </main>
   </div>
-  <script>
-    window.addEventListener("load", function () {
-      if (window.location.hash) {
-        history.replaceState(null, "", window.location.pathname + window.location.search);
-      }
-      window.scrollTo(0, 0);
-    });
-
-    window.addEventListener("pageshow", function () {
-      window.scrollTo(0, 0);
-    });
-  </script>
 </body>
 </html>
